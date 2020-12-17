@@ -17,7 +17,7 @@
         <div class="row">
             <div class="col-sm-6">
                 <div class="logo">
-                    <h1><a href="./"><img src="img/vendor/your-logo.png"></a></h1>
+                    <h1><a href="Index"><img src="img/vendor/your-logo.png"></a></h1>
                 </div>
                 <div class="search">
                     <input type="text" placeholder="Tìm kiếm">
@@ -29,8 +29,8 @@
                 <div class="col-md-8-menu">
                     <div class="user-menu">
                         <ul>
-                            <li><a href="myaccount.html"><i class="fa fa-user"></i> Tài khoản</a></li>
-                            <li><a href="cart.html"><i class="fa fa-shopping-cart"></i> Giỏ hàng</a></li>
+                            <li><a href="UserAccount"><i class="fa fa-user"></i> Tài khoản</a></li>
+                            <li><a href="Cart"><i class="fa fa-shopping-cart"></i> Giỏ hàng</a></li>
                             <li><a href="Login"><i class="fa fa-user"></i> Đăng nhập</a></li>
                         </ul>
                     </div>
@@ -61,17 +61,17 @@
                         <ul class="sub-menu">
                             <li>Hãng sản xuất
                                 <ul class="h_sx">
-                                    <li class=""><a class="" href="iphone.html">Iphone</a> </li>
-                                    <li class=""><a class="" href="samsung.html">Samsung</a></li>
-                                    <li class=""><a class="" href="oppo.html">Oppo</a></li>
-                                    <li class=""><a class="" href="realme.html">Realme</a></li>
-                                    <li class=""><a class="" href="xiaomi.html" > Xiaomi</a></li>
+                                    <li class=""><a class="" href="Iphone">Iphone</a> </li>
+                                    <li class=""><a class="" href="Samsung">Samsung</a></li>
+                                    <li class=""><a class="" href="OPPO">Oppo</a></li>
+                                    <li class=""><a class="" href="Realme">Realme</a></li>
+                                    <li class=""><a class="" href="Xiaomi" > Xiaomi</a></li>
 
 
                                 </ul>
                             </li>
 
-                            <li>Mức giá
+<%--                            <li>Mức giá
 
                                 <ul class="muc_gia">
                                     <li>< 5 triệu</li>
@@ -81,16 +81,16 @@
 
                                 </ul>
 
-                            </li>
+                            </li>--%>
 
                         </ul>
 
 
                     </li>
-                    <li><a href="single-product.html">Chi tiết sản phẩm</a></li>
-                    <li><a href="checkout.html">Thanh toán</a></li>
-                    <li><a href="news.html">Tin tức</a></li>
-                    <li><a href="hotline.html">Liên hệ</a></li>
+                    <li><a href="Product">Chi tiết sản phẩm</a></li>
+                    <li><a href="Checkout">Thanh toán</a></li>
+                    <li><a href="News">Tin tức</a></li>
+                    <li><a href="Hotline">Liên hệ</a></li>
                 </ul>
             </div>
         </div>

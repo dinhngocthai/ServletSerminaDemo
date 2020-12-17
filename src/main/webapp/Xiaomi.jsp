@@ -116,98 +116,14 @@
 </head>
 <body>
 
-
-<div class="site-branding-area">
-    <div class="container">
-        <div class="row">
-            <div class="col-sm-6">
-                <div class="logo">
-                    <h1><a href="./"><img src="img/vendor/your-logo.png"></a></h1>
-                </div>
-                <div class="search">
-                    <input type="text" placeholder="Tìm kiếm">
-                    <i class="fa fa-search"></i>
-
-                </div>
-            </div>
-            <div class="row">
-                <div class="col-md-8-menu">
-                    <div class="user-menu">
-                        <ul>
-                            <li><a href="myaccount.html"><i class="fa fa-user"></i> Tài khoản</a></li>
-                            <li><a href="cart.html"><i class="fa fa-shopping-cart"></i> Giỏ hàng</a></li>
-                            <li><a href="login.html"><i class="fa fa-user"></i> Đăng nhập</a></li>
-                        </ul>
-                    </div>
-                </div>
-            </div>
-
-        </div>
-    </div>
-</div> <!-- End site branding area -->
-
-<div class="mainmenu-area">
-    <div class="container">
-        <div class="row">
-            <div class="navbar-header">
-                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
-                    <span class="sr-only">Toggle navigation</span>
-                    <span class="icon-bar"></span>
-                    <span class="icon-bar"></span>
-                    <span class="icon-bar"></span>
-                </button>
-            </div>
-            <div class="navbar-collapse collapse">
-                <ul class="nav navbar-nav">
-                    <li class=""><a href="index.html">Trang chủ</a></li>
-                    <li class="danh_muc"><a href="Product-list.jsp">Danh mục sản phẩm</a>
-
-
-                        <ul class="sub-menu">
-                            <li>Hãng sản xuất
-                                <ul class="h_sx">
-                                    <li class=""><a class="" href="iphone.html">Iphone</a></li>
-                                    <li class=""><a class="" href="samsung.html">Samsung</a></li>
-                                    <li class=""><a class="" href="oppo.html">Oppo</a></li>
-                                    <li class=""><a class="" href="realme.html">Realme</a></li>
-                                    <li class=""><a class="" href="xiaomi.html"> Xiaomi</a></li>
-
-
-                                </ul>
-                            </li>
-
-                            <li>Mức giá
-
-                                <ul class="muc_gia">
-                                    <li>< 5 triệu</li>
-                                    <li>5-10 triệu</li>
-                                    <li>10-15 triệu</li>
-                                    <li>>15 triệu</li>
-
-                                </ul>
-
-                            </li>
-
-                        </ul>
-
-
-                    </li>
-                    <li><a href="single-product.html">Chi tiết sản phẩm</a></li>
-                    <li><a href="checkout.html">Thanh toán</a></li>
-                    <li><a href="news.html">Tin tức</a></li>
-                    <li><a href="hotline.html">Liên hệ</a></li>
-                </ul>
-            </div>
-        </div>
-    </div>
-</div> <!-- End mainmenu area -->
+<jsp:include page="Header.jsp"></jsp:include>
 
 <div class="product-big-title-area">
     <div class="container">
         <div class="row">
             <div class="col-md-12">
                 <div class="product-bit-title text-center">
-                    <h2>Danh mục sản phẩm</h2>
+                    <h2>Xiaomi</h2>
                 </div>
             </div>
         </div>
@@ -216,9 +132,9 @@
 
 <div class="btn-group-choice">
     <span>Chọn kiểu hiển thị</span>
-    <a href="Product-list.jsp" id="list" class="btn btn-default btn-sm">
+    <a href="ListProduct.jsp" id="list" class="btn btn-default btn-sm">
         <span class="glyphicon glyphicon-th-list"> </span>Dạng danh sách</a>
-    <a href="Product-list.jsp" id="grid" class="btn btn-default btn-sm">
+    <a href="ListProduct.jsp" id="grid" class="btn btn-default btn-sm">
         <span class="glyphicon glyphicon-th"></span>Dạng lưới</a>
 </div>
 

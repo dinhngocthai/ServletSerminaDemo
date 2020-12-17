@@ -11,7 +11,7 @@
         <div class="row">
             <div class="col-md-3 col-sm-6">
                 <div class="footer-about-us">
-                    <h2>SM<span>Store</span></h2>
+                   <a href="Index"> <h2>SM<span>Store</span></h2></a>
                     <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Perferendis sunt id doloribus vero quam
                         laborum quas alias dolores blanditiis iusto consequatur, modi aliquid eveniet eligendi iure
                         eaque ipsam iste, pariatur omnis sint! Suscipit, debitis, quisquam. Laborum commodi veritatis
@@ -30,8 +30,8 @@
                     <h2 class="footer-wid-title">Điều hướng người dùng</h2>
                     <ul>
                         <li><a href="myaccount.html">Tài khoản</a></li>
-                        <li><a href="cart.html">Giỏ hàng</a></li>
-                        <li><a href="news.html">Tin tức</a></li>
+                        <li><a href="Cart">Giỏ hàng</a></li>
+                        <li><a href="News">Tin tức</a></li>
 
                     </ul>
                 </div>
@@ -41,11 +41,11 @@
                 <div class="footer-menu">
                     <h2 class="footer-wid-title">Danh mục</h2>
                     <ul>
-                        <li><a href="iphone.html">Iphone</a></li>
-                        <li><a href="samsung.html">Samsung</a></li>
-                        <li><a href="oppo.html">OPPO</a></li>
-                        <li><a href="realme.html">Realme</a></li>
-                        <li><a href="xiaomi.html">Xiaomi</a></li>
+                        <li><a href="Iphone">Iphone</a></li>
+                        <li><a href="Samsung">Samsung</a></li>
+                        <li><a href="OPPO">OPPO</a></li>
+                        <li><a href="Realme">Realme</a></li>
+                        <li><a href="Xiaomi">Xiaomi</a></li>
                     </ul>
                 </div>
             </div>

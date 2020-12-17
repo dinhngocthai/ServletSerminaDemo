@@ -1,4 +1,4 @@
-package demo.controller;
+package demo.page;
 
 import demo.beans.Product;
 import demo.filter.Data;
@@ -11,15 +11,16 @@ import javax.servlet.http.HttpServletResponse;
 import java.io.IOException;
 import java.util.Collection;
 
-@WebServlet(name = "ListData",urlPatterns = "/ListData")
-public class ListData extends HttpServlet {
+@WebServlet(name = "Cart", urlPatterns = "/Cart")
+public class Cart extends HttpServlet {
     protected void doPost(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
-            doGet(request,response);
+        doGet(request,response);
+
     }
 
     protected void doGet(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
-        Collection<Product>values = Data.data.values();
-        request.setAttribute("ListProduct",values);
-        request.getRequestDispatcher("ListProduct.jsp").forward(request,response);
+        Collection<Product> values = Data.dataOPPO.values();
+        request.setAttribute("ListOPPO",values);
+        request.getRequestDispatcher("Cart.jsp").forward(request,response);
     }
 }

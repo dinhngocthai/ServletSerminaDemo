@@ -14,19 +14,15 @@ public class Data {
 
 
     static {
-        data.put("01", new Product("Samsung Galaxy A51", "http://localhost:8080/ServletSerminaDemo/img/samsung/SSG-Back.jpg", 7100000, 7100000));
+        dataOPPO.put("01", new Product("OPPO RENO 3 PRO", "http://localhost:8080/ServletSerminaDemo/img/oppo/oppo-reno3-pro-den-400x460-400x460.png", 7100000, 7100000));
         data.put("02", new Product("Samsung Galaxy A61", "http://localhost:8080/ServletSerminaDemo/img/samsung/samsung-galaxy-a21s.png", 5500000, 6500000));
         data.put("03", new Product("Samsung Galaxy A71", "http://localhost:8080/ServletSerminaDemo/img/samsung/samsung-galaxy-a21s.png", 7100000, 7100000));
         data.put("04", new Product("Samsung Galaxy A81", "http://localhost:8080/ServletSerminaDemo/img/samsung/samsung-galaxy-z-fold-2.png", 5500000, 7100000));
         data.put("05", new Product("Samsung Galaxy A91", "http://localhost:8080/ServletSerminaDemo/img/samsung/samsung-galaxy-a21s.png", 7100000, 6500000));
         data.put("06", new Product("Samsung Galaxy A11", "http://localhost:8080/ServletSerminaDemo/img/samsung/samsung-galaxy-z-fold-2.png", 5500000, 7100000));
-        data.put("07", new Product("Samsung Galaxy A51", "http://localhost:8080/ServletSerminaDemo/img/samsung/SSG-Back.jpg", 7100000, 7100000));
         data.put("08", new Product("Samsung Galaxy A61", "http://localhost:8080/ServletSerminaDemo/img/samsung/samsung-galaxy-a21s.png", 5500000, 6500000));
         data.put("09", new Product("Samsung Galaxy A71", "http://localhost:8080/ServletSerminaDemo/img/samsung/samsung-galaxy-a21s.png", 7100000, 7100000));
         data.put("10", new Product("Samsung Galaxy A81", "http://localhost:8080/ServletSerminaDemo/img/samsung/samsung-galaxy-z-fold-2.png", 5500000, 7100000));
-        data.put("11", new Product("Samsung Galaxy A91", "http://localhost:8080/ServletSerminaDemo/img/samsung/samsung-galaxy-a21s.png", 7100000, 6500000));
-        data.put("12", new Product("Samsung Galaxy A11", "http://localhost:8080/ServletSerminaDemo/img/samsung/samsung-galaxy-z-fold-2.png", 5500000, 7100000));
-        data.put("13", new Product("Samsung Galaxy A91", "http://localhost:8080/ServletSerminaDemo/img/samsung/samsung-galaxy-a21s.png", 7100000, 6500000));
         data.put("14", new Product("Samsung Galaxy A11", "http://localhost:8080/ServletSerminaDemo/img/samsung/samsung-galaxy-z-fold-2.png", 5500000, 7100000));
     }
 

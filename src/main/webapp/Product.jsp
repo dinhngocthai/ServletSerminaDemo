@@ -172,19 +172,17 @@
                                     <div class="tab-content">
                                         <div role="tabpanel" class="tab-pane fade in active" id="home">
                                             <h2>Mô tả sản phẩm</h2>
-                                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam tristique,
-                                                diam in consequat iaculis, est purus iaculis mauris, imperdiet facilisis
-                                                ante ligula at nulla. Quisque volutpat nulla risus, id maximus ex
-                                                aliquet ut. Suspendisse potenti. Nulla varius lectus id turpis dignissim
-                                                porta. Quisque magna arcu, blandit quis felis vehicula, feugiat gravida
-                                                diam. Nullam nec turpis ligula. Aliquam quis blandit elit, ac sodales
-                                                nisl. Aliquam eget dolor eget elit malesuada aliquet. In varius lorem
-                                                lorem, semper bibendum lectus lobortis ac.</p>
+                                            <p>Màn hình:	 6.3", FHD+, Dynamic AMOLED, 1080 x 2280 Pixel</p>
+                                            <p>Camera sau:	 12.0 MP + 16.0 MP + 12.0 MP</p>
+                                            <p>Camera trước: 10.0 MP</p>
+                                            <p>RAM:          8 GB</p>
+                                            <p>Bộ nhớ trong: 256 GB</p>
+                                            <p>CPU:     	 Exynos 9825</p>
+                                            <p>Dung lượng pin: 3500 mAh</p>
+                                            <p>Thẻ sim:        2, Nano SIM</p>
+                                            <p>Hệ điều hành:   Android 9.0</p>
+                                            <p>Tên hãng:       SamSung</p>
 
-                                            <p>Mauris placerat vitae lorem gravida viverra. Mauris in fringilla ex.
-                                                Nulla facilisi. Etiam scelerisque tincidunt quam facilisis lobortis. In
-                                                malesuada pulvinar neque a consectetur. Nunc aliquam gravida purus, non
-                                                malesuada sem accumsan in. Morbi vel sodales libero.</p>
                                         </div>
                                         <div role="tabpanel" class="tab-pane fade" id="profile">
                                             <h2>Nhận xét</h2>
@@ -237,76 +235,6 @@
                                 </div>
                             </div>
                             </c:forEach>
-
-                            <%--   <div class="single-product">
-                                  <div class="product-f-image">
-                                      <img src="img/oppo/oppo_a5.jpg" alt="">
-                                      <div class="product-hover">
-                                          <a href="" class="add-to-cart-link"><i class="fa fa-shopping-cart"></i>Thêm giỏ
-                                              hàng</a>
-                                          <a href="" class="view-details-link"><i class="fa fa-link"></i> Chi tiết</a>
-                                      </div>
-                                  </div>
-
-                                  <h2><a href="">OPPO A5</a></h2>
-
-                                  <div class="product-carousel-price">
-                                      <ins>3.990.000₫</ins>
-                                      <del>4.590.000₫</del>
-                                  </div>
-                              </div>
-                              <div class="single-product">
-                                  <div class="product-f-image">
-                                      <img src="img/samsung/samsung-a71.jpg" alt="">
-                                      <div class="product-hover">
-                                          <a href="" class="add-to-cart-link"><i class="fa fa-shopping-cart"></i>Thêm giỏ
-                                              hàng</a>
-                                          <a href="" class="view-details-link"><i class="fa fa-link"></i> Chi tiết</a>
-                                      </div>
-                                  </div>
-
-                                  <h2><a href="">Samsung Galaxy A71</a></h2>
-
-                                  <div class="product-carousel-price">
-                                      <ins>9.000.000₫</ins>
-                                      <del>10.000.000₫</del>
-                                  </div>
-                              </div>
-                              <div class="single-product">
-                                  <div class="product-f-image">
-                                      <img src="img/samsung/samsung-a51.jpg" alt="">
-                                      <div class="product-hover">
-                                          <a href="" class="add-to-cart-link"><i class="fa fa-shopping-cart"></i>Thêm giỏ
-                                              hàng</a>
-                                          <a href="" class="view-details-link"><i class="fa fa-link"></i> Chi tiết</a>
-                                      </div>
-                                  </div>
-
-                                  <h2><a href="">Samsung Galaxy A51</a></h2>
-
-                                  <div class="product-carousel-price">
-                                      <ins>7.100.000₫</ins>
-                                      <del>8.100.000₫</del>
-                                  </div>
-                              </div>
-                              <div class="single-product">
-                                  <div class="product-f-image">
-                                      <img src="img/iphone/iphone-12.jpg" alt="">
-                                      <div class="product-hover">
-                                          <a href="" class="add-to-cart-link"><i class="fa fa-shopping-cart"></i>Thêm giỏ
-                                              hàng</a>
-                                          <a href="" class="view-details-link"><i class="fa fa-link"></i> Chi tiết</a>
-                                      </div>
-                                  </div>
-
-                                  <h2><a href="">Iphone 12</a></h2>
-
-                                  <div class="product-carousel-price">
-                                      <ins>24.990.000₫</ins>
-                                      <del>25.990.000₫</del>
-                                  </div>
-                              </div>
-  --%>
                         </div>
                     </div>
                 </div>

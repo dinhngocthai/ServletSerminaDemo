@@ -14,10 +14,10 @@ public class Login extends HttpServlet {
     static HashMap<String, String> data = new HashMap<>();
 
     static {
-        data.put("quynh", "456");
-        data.put("hiep", "456");
-        data.put("thai", "456");
-        data.put("web", "456");
+        data.put("quynh", "123");
+        data.put("hiep", "123");
+        data.put("thai", "123");
+        data.put("web", "123");
 
     }
 
@@ -38,12 +38,13 @@ public class Login extends HttpServlet {
     }
 
     protected void doGet(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
+
         String username = request.getParameter("username");
         String pass = request.getParameter("password");
         if (data.containsKey(username) && pass.equals(data.get(username))) {
             response.sendRedirect("Index");
         } else if (dataAdmin.containsKey(username) && pass.equals(dataAdmin.get(username))) {
-            response.sendRedirect("admin.html");
+            response.sendRedirect("Admin");
         } else {
             request.setAttribute("errmes", "Ban da dang nhap sai");
             request.getRequestDispatcher("Login.jsp").forward(request, response);

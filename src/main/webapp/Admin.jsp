@@ -1,3 +1,11 @@
+<%--
+  Created by IntelliJ IDEA.
+  User: Sharrfire
+  Date: 17-Dec-20
+  Time: 12:24 PM
+  To change this template use File | Settings | File Templates.
+--%>
+<%@ page contentType="text/html;charset=UTF-8" language="java" %>
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -460,7 +468,6 @@
         var checkemail = false;
 
         /*<=============================Kiem tra du lieu=============================>*/
-/*
 
         //ktra name
         if (username == "") {
@@ -514,12 +521,9 @@
 
         }
 
-*/
 
         /*==================== them du lieu vao bang ====================*/
-/*
         if (checkname == true && checkid == true && checkaddress == true && checkphone == true &&checkemail == true ) {
-*/
             var user = {
                 "username": username,
                 "id": id,
@@ -533,8 +537,8 @@
 
             var dataListTag = document.getElementById("result");
             dataListTag.innerHTML +=
-                `<tr>
-						<td>${++count}</td>
+                <tr>
+						<td>${count+=1}</td>
 						<td>${username}</td>
 						<td>${id}</td>
 						<td>${email}</td>
@@ -542,9 +546,9 @@
 						<td>${address}</td>
 						<td><button class="fa fa-edit" onclick="editUser(${count - 1})">Sửa</button>
 						<button class="fa fa-trash" onclick="deleteUser(${count - 1})">Xóa</button></td>
-					</tr>`
+					</tr>
         }
-  //  }
+   }
 
     function deleteUser(index) {
         console.log(index)
@@ -556,7 +560,7 @@
         document.getElementById('result').innerHTML = ''
 
         for (var i = 0; i < dataList.length; i++) {
-            document.getElementById('result').innerHTML += `<tr>
+            document.getElementById('result').innerHTML += <tr>
 						<td>${i + 1}</td>
 						<td>${dataList[i].username}</td>
 						<td>${dataList[i].id}</td>
@@ -565,7 +569,7 @@
 						<td>${dataList[i].address}</td>
 						<td><button class="fa fa-edit" onclick="editUser(${i})">Sửa</button>
 						<button class="fa fa-trash" onclick="deleteUser(${i})">Xóa</button></td>
-					</tr>`
+					</tr>
         }
     }
 

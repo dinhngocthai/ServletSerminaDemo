@@ -20,6 +20,6 @@ public class Xiaomi extends HttpServlet {
     protected void doGet(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
         Collection<Product> values = Data.dataXiaomi.values();
         request.setAttribute("listXiaomi",values);
-        request.getRequestDispatcher("XXiaomi.jsp").forward(request,response);
+        request.getRequestDispatcher("Xiaomi.jsp").forward(request,response);
     }
 }

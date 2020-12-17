@@ -19,7 +19,7 @@ public class OPPO extends HttpServlet {
 
     protected void doGet(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
         Collection<Product>values = Data.dataOPPO.values();
-        request.setAttribute("listOPPO",values);
+        request.setAttribute("ListOPPO",values);
         request.getRequestDispatcher("OPPO.jsp").forward(request,response);
     }
 }
